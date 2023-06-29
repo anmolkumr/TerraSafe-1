@@ -226,7 +226,9 @@ a:hover,
 .footer -menu li a:hover {
     text-decoration: none
 }
-
+.footer-logo img{
+    width:100%;
+}
 a,
 button {
     color: #fff;
@@ -3644,7 +3646,7 @@ form.search-box .input-form .world-form i {
 }
 
 .about-area1 .about-img img {
-    width: 100%
+    width: 76%
 }
 
 .about-area1 ul li {
