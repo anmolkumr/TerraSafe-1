@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 * {
     box-sizing: border-box;
@@ -8,15 +8,15 @@
 
 body {
     width: 100%;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
+    /* background: #b8dae3; */
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.ask-questions{
-    background: #dee3ff;
-}
+
 a {
     text-decoration: none;
 }
@@ -86,12 +86,12 @@ a {
 }
 .top i{}
 .fa-check-circle {
-    color: #17b667;
+    color: white;
 }
 
 /* creating heart */
 .heart {
-    color: rgb(155, 155, 155);
+    color: white;
 }
 
 .heart::before {
@@ -170,7 +170,7 @@ a {
 .btn-new a:hover {
     color: #fff;
     box-shadow: 2px 5px 15px rgba(80, 123, 252, 0.05);
-    background-color: #507bfc;
+    
     transition: all ease 0.5s;
 }
 
@@ -183,13 +183,16 @@ a {
 }
 
 body {
-
+    font-family: "Dosis", sans-serif;
    
     text-align: center;
 }
 
 .clear {
     clear: both;
+}
+.ask-questions{
+    background: #dee3ff;
 }
 
 /*** CARD STLES ***/
@@ -723,8 +726,8 @@ header p {
 a:hover,
 a:active,
 a:focus {
-    background: #2d03f1;
-    color: #FFFFFF;
+   
+  
     text-decoration: none;
 }
 
@@ -807,5 +810,3 @@ blockquote {
         border-color: transparent #f5f5f5 transparent transparent;
     }
 }
-
-/*# sourceMappingURL=sass.css.map */
