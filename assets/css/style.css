@@ -3926,7 +3926,7 @@ form.search-box .input-form .world-form i {
     position: absolute;
     top: 0;
     content: "";
-    border-top: 80px solid #fff;
+    border-top: 80px solid #290c2f;
     border-left: 2000px solid transparent;
     left: 0px;
     z-index: 1;
