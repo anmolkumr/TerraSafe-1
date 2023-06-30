@@ -102,24 +102,29 @@
         padding-bottom: 34px;
         width: 100%;
     }
-    #contact-box input, 
-    #contact-box textarea{
+    #contact-box input,#contact-box textarea
+   {
         width: 100%;
         padding: 0.5rem;
         border-radius: 9px;
         font-size: 1.1rem;
+    height: 45px;
     } 
+         #contact-box textarea{
+            height: 200px;
+         }
     
     #contact-box form{
         width: 40%;
     }
     
     #contact-box label{
-       font-size: 1.3rem;
-       font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+        /* font-family: 'Bree Serif', serif; */
+        font-family: SANS-SERIF;
     
     }
-    .center{text-align: center;}
+    /* .center{text-align: center;} */
     .box{
        background-color: gray;
         height: fit-content;
