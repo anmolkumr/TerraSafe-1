@@ -304,7 +304,7 @@ body {
     transform: translate(-50%, -50%);
     width: 110px;
     height: auto;
-        filter: brightness(1.5);
+    
 }
 
 .card-one h3 {
